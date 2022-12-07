@@ -50,6 +50,8 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="prev" title="2. Physical chemsitry of solid surfaces" href="chap2.html" />
@@ -228,12 +230,150 @@ title="Print to PDF"
     </ul>
   </div>
 </div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
 
     </div>
 </div>
 
 <!-- Table of contents -->
 <div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#nanoparticles">
+   Nanoparticles
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#top-down-and-bottom-up-synthesis-approaches">
+   Top down and bottom up synthesis approaches
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#top-down">
+     Top down:
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#bottom-up">
+     Bottom up
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#homogeneous-nucleation">
+   Homogeneous nucleation
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#synthesis-of-metallic-nanoparticles">
+   Synthesis of metallic nanoparticles
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#effects-of-reduction-agents">
+     Effects of reduction agents
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#effects-of-polymer-stabilizers">
+     Effects of polymer stabilizers
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#synthesis-by-electrochemical-deposition">
+     Synthesis by electrochemical deposition
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#sol-gel-synthesis">
+   Sol-gel synthesis
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#steps-in-sol-gel-processing">
+     Steps in sol-gel processing
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#silica-nps-via-stober-process">
+     Silica NPs via Stöber process
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#advantages-of-sol-gel">
+     Advantages of sol-gel
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#hybrid-nanoparticles">
+   Hybrid nanoparticles
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#vapour-phase-synthesis">
+   Vapour phase synthesis
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#chemical-vapour-deposition-cvd">
+     Chemical vapour deposition (CVD)
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#physical-vapour-deposition-pvd">
+     Physical vapour deposition (PVD)
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#heterogeneous-nucleation">
+   Heterogeneous nucleation
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#solubility-supersolubility-diagram">
+     Solubility-supersolubility diagram
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#interfacial-tension-gamma">
+     Interfacial tension (
+     <span class="math notranslate nohighlight">
+      \(\gamma\)
+     </span>
+     )
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#kinetically-confined-synthesis">
+   Kinetically confined synthesis
+  </a>
+ </li>
+</ul>
+
+    </nav>
 </div>
     </div>
     <div class="article row">
@@ -245,6 +385,133 @@ title="Print to PDF"
                 <div id="print-main-content">
                     <div id="jb-print-toc">
                         
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#nanoparticles">
+   Nanoparticles
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#top-down-and-bottom-up-synthesis-approaches">
+   Top down and bottom up synthesis approaches
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#top-down">
+     Top down:
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#bottom-up">
+     Bottom up
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#homogeneous-nucleation">
+   Homogeneous nucleation
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#synthesis-of-metallic-nanoparticles">
+   Synthesis of metallic nanoparticles
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#effects-of-reduction-agents">
+     Effects of reduction agents
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#effects-of-polymer-stabilizers">
+     Effects of polymer stabilizers
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#synthesis-by-electrochemical-deposition">
+     Synthesis by electrochemical deposition
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#sol-gel-synthesis">
+   Sol-gel synthesis
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#steps-in-sol-gel-processing">
+     Steps in sol-gel processing
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#silica-nps-via-stober-process">
+     Silica NPs via Stöber process
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#advantages-of-sol-gel">
+     Advantages of sol-gel
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#hybrid-nanoparticles">
+   Hybrid nanoparticles
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#vapour-phase-synthesis">
+   Vapour phase synthesis
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#chemical-vapour-deposition-cvd">
+     Chemical vapour deposition (CVD)
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#physical-vapour-deposition-pvd">
+     Physical vapour deposition (PVD)
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#heterogeneous-nucleation">
+   Heterogeneous nucleation
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#solubility-supersolubility-diagram">
+     Solubility-supersolubility diagram
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#interfacial-tension-gamma">
+     Interfacial tension (
+     <span class="math notranslate nohighlight">
+      \(\gamma\)
+     </span>
+     )
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#kinetically-confined-synthesis">
+   Kinetically confined synthesis
+  </a>
+ </li>
+</ul>
+
+                        </nav>
                     </div>
                 </div>
             </div>
@@ -254,6 +521,430 @@ title="Print to PDF"
                 
   <section class="tex2jax_ignore mathjax_ignore" id="zero-dimensional-nanostructures-nanoparticles">
 <h1>3. Zero-Dimensional Nanostructures: Nanoparticles<a class="headerlink" href="#zero-dimensional-nanostructures-nanoparticles" title="Permalink to this headline">#</a></h1>
+<div class="contents local topic" id="contents">
+<ul class="simple">
+<li><p><a class="reference internal" href="#nanoparticles" id="id1">Nanoparticles</a></p></li>
+<li><p><a class="reference internal" href="#top-down-and-bottom-up-synthesis-approaches" id="id2">Top down and bottom up synthesis approaches</a></p>
+<ul>
+<li><p><a class="reference internal" href="#top-down" id="id3">Top down:</a></p></li>
+<li><p><a class="reference internal" href="#bottom-up" id="id4">Bottom up</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#homogeneous-nucleation" id="id5">Homogeneous nucleation</a></p></li>
+<li><p><a class="reference internal" href="#synthesis-of-metallic-nanoparticles" id="id6">Synthesis of metallic nanoparticles</a></p>
+<ul>
+<li><p><a class="reference internal" href="#effects-of-reduction-agents" id="id7">Effects of reduction agents</a></p></li>
+<li><p><a class="reference internal" href="#effects-of-polymer-stabilizers" id="id8">Effects of polymer stabilizers</a></p></li>
+<li><p><a class="reference internal" href="#synthesis-by-electrochemical-deposition" id="id9">Synthesis by electrochemical deposition</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#sol-gel-synthesis" id="id10">Sol-gel synthesis</a></p>
+<ul>
+<li><p><a class="reference internal" href="#steps-in-sol-gel-processing" id="id11">Steps in sol-gel processing</a></p></li>
+<li><p><a class="reference internal" href="#silica-nps-via-stober-process" id="id12">Silica NPs via Stöber process</a></p></li>
+<li><p><a class="reference internal" href="#advantages-of-sol-gel" id="id13">Advantages of sol-gel</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#hybrid-nanoparticles" id="id14">Hybrid nanoparticles</a></p></li>
+<li><p><a class="reference internal" href="#vapour-phase-synthesis" id="id15">Vapour phase synthesis</a></p>
+<ul>
+<li><p><a class="reference internal" href="#chemical-vapour-deposition-cvd" id="id16">Chemical vapour deposition (CVD)</a></p></li>
+<li><p><a class="reference internal" href="#physical-vapour-deposition-pvd" id="id17">Physical vapour deposition (PVD)</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#heterogeneous-nucleation" id="id18">Heterogeneous nucleation</a></p>
+<ul>
+<li><p><a class="reference internal" href="#solubility-supersolubility-diagram" id="id19">Solubility-supersolubility diagram</a></p></li>
+<li><p><a class="reference internal" href="#interfacial-tension-gamma" id="id20">Interfacial tension (<span class="math notranslate nohighlight">\(\gamma\)</span>)</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#kinetically-confined-synthesis" id="id21">Kinetically confined synthesis</a></p></li>
+</ul>
+</div>
+<section id="nanoparticles">
+<h2><a class="toc-backref" href="#id1">Nanoparticles</a><a class="headerlink" href="#nanoparticles" title="Permalink to this headline">#</a></h2>
+<p>Requirement for NPs:</p>
+<ol class="simple">
+<li><p>Monosized</p></li>
+<li><p>Homogeneous morphology</p></li>
+<li><p>Homogeneous composition/structure</p></li>
+<li><p>Monodisperse (not agglomerated)</p></li>
+</ol>
+<p>Definitions:</p>
+<ul class="simple">
+<li><p>Nanoparticle: Material where all three
+dimensions are in the nanoscale regime
+(a “zero-dimensional” nanomaterial)</p></li>
+<li><p>Nanocrystal: Crystalline nanoparticles</p></li>
+<li><p>Quantum dots: Semiconductor
+nanocrystals with fluorescent properties</p></li>
+</ul>
+</section>
+<section id="top-down-and-bottom-up-synthesis-approaches">
+<h2><a class="toc-backref" href="#id2">Top down and bottom up synthesis approaches</a><a class="headerlink" href="#top-down-and-bottom-up-synthesis-approaches" title="Permalink to this headline">#</a></h2>
+<section id="top-down">
+<h3><a class="toc-backref" href="#id3">Top down:</a><a class="headerlink" href="#top-down" title="Permalink to this headline">#</a></h3>
+<p>Refining of bulk materials. E.g. Ball milling, etching, attrition, quenching.</p>
+<p>Advantages:</p>
+<ul class="simple">
+<li><p>High production yield</p></li>
+<li><p>Easy to scale up</p></li>
+<li><p>Cost effective</p></li>
+</ul>
+<p>Disadvantages:</p>
+<ul class="simple">
+<li><p>Broad size distribution</p></li>
+<li><p>Varied particle morphology</p></li>
+<li><p>Impurities from the mechanical process</p></li>
+<li><p>Defective nanostructures</p></li>
+</ul>
+<p>Not otherwise covered in this course except for lithography.</p>
+</section>
+<section id="bottom-up">
+<h3><a class="toc-backref" href="#id4">Bottom up</a><a class="headerlink" href="#bottom-up" title="Permalink to this headline">#</a></h3>
+<p>Scaling up from single atoms. E.g. Colloidal synthesis, sol-gel, hydrothermal synthesis, spray pyrolysis.</p>
+<p>Advantages:</p>
+<ul class="simple">
+<li><p>Controlled size, morphology and composition.</p></li>
+<li><p>Hight purity, few defects.</p></li>
+<li><p>Const effective</p></li>
+</ul>
+<p>Disadvantages:</p>
+<ul class="simple">
+<li><p>Potentially low yield.</p></li>
+<li><p>More complicated.</p></li>
+<li><p>Sometimes difficult to scale up.</p></li>
+</ul>
+<p>The bottom up method is further divided into two methods:</p>
+<ol class="simple">
+<li><p><strong>Thermodynamic equilibrium approach</strong> (Nucleation and growth).</p></li>
+<li><p><strong>Kinetic approach</strong> (E.g. microemulsion, aerosol pyrolysis, template based deposition).</p></li>
+</ol>
+</section>
+</section>
+<section id="homogeneous-nucleation">
+<h2><a class="toc-backref" href="#id5">Homogeneous nucleation</a><a class="headerlink" href="#homogeneous-nucleation" title="Permalink to this headline">#</a></h2>
+<p>Homogeneous nucleation differs from heterogeneous nucleation i that it does not occur at an interface. Like heterogeneous nucleation however, it can occur in gasses, liquids and solids.</p>
+<p>For homogenous growth a supersaturated medium is required. Supersaturation is defined as when the concentration of solute in a solvent exceeds the equilibrium solubility.</p>
+<p>Homogeneous nucleation happens to reduce the gibbs free energy of a system that is supersaturated. The energy of the system is lowered by precipitation of solid material from the solution as shown in <a class="reference internal" href="#fig-homogenous"><span class="std std-numref">Fig. 16</span></a>.</p>
+<figure class="align-default" id="fig-homogenous">
+<img alt="homogenous" src="_images/homogenous.png" />
+<figcaption>
+<p><span class="caption-number">Fig. 16 </span><span class="caption-text">Figure showing Gibbs free energy for different concentrations of solute.</span><a class="headerlink" href="#fig-homogenous" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<p>Some notation for supersaturation (<span class="math notranslate nohighlight">\(\sigma\)</span>):</p>
+<div class="math notranslate nohighlight">
+\[
+\sigma = \frac{C-C_e}{C_e}
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+1 + \sigma = \frac{C}{C_e}
+\]</div>
+<p><span class="math notranslate nohighlight">\(\sigma = 0\)</span>: No supersaturation <span class="math notranslate nohighlight">\(\implies \Delta G_v = 0\)</span> No nucleation occurs.<br />
+<span class="math notranslate nohighlight">\(C&gt;C_0 \implies \Delta G_v &lt; 0\)</span> Nucleation would occur spontaneously if not for surface energy. Free energy including surface energy shown in <a class="reference internal" href="#fig-hom-surf"><span class="std std-numref">Fig. 17</span></a>.</p>
+<figure class="align-default" id="fig-hom-surf">
+<img alt="hom_surf" src="_images/hom_surf.png" />
+<figcaption>
+<p><span class="caption-number">Fig. 17 </span><span class="caption-text">Equations for critical radii of nuclei and energy barrier for stable nucleus formation, and plot of total free energy including surface energy.</span><a class="headerlink" href="#fig-hom-surf" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<p>When nanoparticles from a supersaturated medium are desired,
+we need to reduce the critical size r*, and the free energy ΔG, i.e.</p>
+<ol class="simple">
+<li><p>Reduce <span class="math notranslate nohighlight">\(\gamma\)</span></p></li>
+<li><p>Make <span class="math notranslate nohighlight">\(\Delta G_v\)</span> more negative</p></li>
+</ol>
+<p>Also: lower T tends to decrease <span class="math notranslate nohighlight">\(\gamma\)</span></p>
+<figure class="align-default" id="fig-growth">
+<img alt="growth" src="_images/growth.png" />
+<figcaption>
+<p><span class="caption-number">Fig. 18 </span><span class="caption-text">Schematic illustrating the processes of nucleation and subsequent growth. Region I: No nucleation, Region II: Nucleation and growth, Region III: Only growth.
+<span class="math notranslate nohighlight">\(C^{nu}_{min}\)</span>: Minimum concentration associated with energy barrier</span><a class="headerlink" href="#fig-growth" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="synthesis-of-metallic-nanoparticles">
+<h2><a class="toc-backref" href="#id6">Synthesis of metallic nanoparticles</a><a class="headerlink" href="#synthesis-of-metallic-nanoparticles" title="Permalink to this headline">#</a></h2>
+<p>General method: reduction of metal complexes in dilute solution.</p>
+<p>The formation of monosized metallic NPs is achieved in most cases by a combination of:</p>
+<ul class="simple">
+<li><p>Low concentration of solute</p></li>
+<li><p>Polymeric monolayer adhered onto the growth surface in order to hinder the diffusion of the growth species. (Polymer stabilizer)</p></li>
+</ul>
+<section id="effects-of-reduction-agents">
+<h3><a class="toc-backref" href="#id7">Effects of reduction agents</a><a class="headerlink" href="#effects-of-reduction-agents" title="Permalink to this headline">#</a></h3>
+<p>Different reduction agent type, concentration, and pH <span class="math notranslate nohighlight">\(\implies\)</span> different size, size distribution, and morphology, of the obtained nanoparticles.</p>
+<ul class="simple">
+<li><p>Strong reduction reagents promote a fast reaction rate, favoring the
+formation of smaller NPs</p></li>
+<li><p>Weak reduction reagents induce slow reaction rate and favor
+relatively larger particles</p></li>
+</ul>
+<p>Examples of different morphology due to reduction agents:</p>
+<ul class="simple">
+<li><p>Sodium citrate (Na<span class="math notranslate nohighlight">\(_3\)</span>C<span class="math notranslate nohighlight">\(_6\)</span>H<span class="math notranslate nohighlight">\(_5\)</span>O<span class="math notranslate nohighlight">\(_7\)</span>) <span class="math notranslate nohighlight">\(\implies\)</span> Spherical shape</p></li>
+<li><p>Citric acid (C<span class="math notranslate nohighlight">\(_6\)</span>H<span class="math notranslate nohighlight">\(_8\)</span>O<span class="math notranslate nohighlight">\(_7\)</span>) <span class="math notranslate nohighlight">\(\implies\)</span> Faceted particle formations</p></li>
+</ul>
+</section>
+<section id="effects-of-polymer-stabilizers">
+<h3><a class="toc-backref" href="#id8">Effects of polymer stabilizers</a><a class="headerlink" href="#effects-of-polymer-stabilizers" title="Permalink to this headline">#</a></h3>
+<p>Polymers can have many functions during NP synthesis:</p>
+<ol class="simple">
+<li><p>Stabilization agents: By forming a monolayer on the surface of the NPs</p></li>
+<li><p>Growth limiting agents. Requires full coverage.</p></li>
+<li><p>Growth directing agents. The effect depends on:</p>
+<ul class="simple">
+<li><p>The surface chemistry of the solid</p></li>
+<li><p>The solvent</p></li>
+<li><p>The temperature</p></li>
+</ul>
+</li>
+</ol>
+</section>
+<section id="synthesis-by-electrochemical-deposition">
+<h3><a class="toc-backref" href="#id9">Synthesis by electrochemical deposition</a><a class="headerlink" href="#synthesis-by-electrochemical-deposition" title="Permalink to this headline">#</a></h3>
+<p>Recipe:</p>
+<ol class="simple">
+<li><p>Electric field is applied</p></li>
+<li><p>Metal anode dissolves</p></li>
+<li><p>Metal ions migrate through electrolyte</p>
+<ul class="simple">
+<li><p>Reduction</p></li>
+<li><p>Stabilized by additives in the electrolyte</p></li>
+</ul>
+</li>
+</ol>
+<p>Increased current density results in smaller NPs.</p>
+</section>
+</section>
+<section id="sol-gel-synthesis">
+<h2><a class="toc-backref" href="#id10">Sol-gel synthesis</a><a class="headerlink" href="#sol-gel-synthesis" title="Permalink to this headline">#</a></h2>
+<p>Sol-gel process is a wet chemical route that
+involves the generation of a colloidal solution
+(‘sol’ for solution), which is subsequently
+converted to viscous gel and then to a solid
+material.</p>
+<p>Mostly used for synthesis of metal oxide NPs
+(SiO2, TiO2,..)</p>
+<p>Sol-gel goes via hydrolysis and polycondensation of precursors (<a class="reference internal" href="#fig-sol"><span class="std std-numref">Fig. 19</span></a>, <a class="reference internal" href="#fig-sol2"><span class="std std-numref">Fig. 20</span></a>):</p>
+<ul class="simple">
+<li><p>Precursor is mixed with the solvent to form a sol (solution).</p></li>
+<li><p>The sol converts into a non-fluidic 3D network (gel).</p></li>
+</ul>
+<figure class="align-default" id="fig-sol">
+<img alt="sol" src="_images/sol.png" />
+<figcaption>
+<p><span class="caption-number">Fig. 19 </span><span class="caption-text">Figure showing partial and complete hydrolysis of a precursor, which is the first step in sol-gel processing.</span><a class="headerlink" href="#fig-sol" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<figure class="align-default" id="fig-sol2">
+<img alt="sol2" src="_images/sol2.png" />
+<figcaption>
+<p><span class="caption-number">Fig. 20 </span><span class="caption-text">Figure showing the condensation of the previously hydrolyzed precursor, which is the second step in sol-gel processing.</span><a class="headerlink" href="#fig-sol2" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<section id="steps-in-sol-gel-processing">
+<h3><a class="toc-backref" href="#id11">Steps in sol-gel processing</a><a class="headerlink" href="#steps-in-sol-gel-processing" title="Permalink to this headline">#</a></h3>
+<ol class="simple">
+<li><p>Sol: Formation of stable solution by hydrolysis and partial condensation of
+precursor.</p></li>
+<li><p>Gel: Formation of metal oxo bonds.</p></li>
+<li><p>Aging: Condensation continues within the gel, resulting in shrinking and
+densification along with expulsion of solvent.</p></li>
+<li><p>Drying: Water and other volatile impurities are removed from the gel network.</p></li>
+<li><p>Dehydration: Removal of surface M-OH groups via calcination at ~ 800 °C.</p></li>
+<li><p>Thermal treatment: Densification of the gels at temperatures &gt; 800 °C via sintering and grain growth.</p></li>
+</ol>
+<p>During the drying process, the following morphologies can be obtained (shown in <a class="reference internal" href="#fig-sol-outcomes"><span class="std std-numref">Fig. 21</span></a>):</p>
+<ul class="simple">
+<li><p>Xerogel: Solvent is removed by evaporation. Often
+results in extreme shrinkage and densification of
+the gel. (shrinkage &gt; 90 %)</p></li>
+<li><p>Aerogel: Solvent is removed by supercritical
+drying. The gel maintains its morphology and
+results in low density product. (shrinkage &lt; 15 %)</p></li>
+</ul>
+<figure class="align-default" id="fig-sol-outcomes">
+<img alt="sol_outcomes" src="_images/sol_outcomes.png" />
+<figcaption>
+<p><span class="caption-number">Fig. 21 </span><span class="caption-text">Figure showing different end products from sol-gel processing.</span><a class="headerlink" href="#fig-sol-outcomes" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="silica-nps-via-stober-process">
+<h3><a class="toc-backref" href="#id12">Silica NPs via Stöber process</a><a class="headerlink" href="#silica-nps-via-stober-process" title="Permalink to this headline">#</a></h3>
+<p>Specifics can be found in lecture slides</p>
+<p>TEOS (tetraethyl orthosilicate), which is one of the most common metal oxides used. The process is shown in <a class="reference internal" href="#fig-stober"><span class="std std-numref">Fig. 22</span></a>, and the effect of increasing the concentrations of ammonium hydroxide is shown in <a class="reference internal" href="#fig-stober2"><span class="std std-numref">Fig. 23</span></a>.</p>
+<figure class="align-default" id="fig-stober">
+<img alt="stober" src="_images/stober.png" />
+<figcaption>
+<p><span class="caption-number">Fig. 22 </span><span class="caption-text">Figure showing the basics of the Stöber process.</span><a class="headerlink" href="#fig-stober" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<figure class="align-default" id="fig-stober2">
+<img alt="stober2" src="_images/stober2.png" />
+<figcaption>
+<p><span class="caption-number">Fig. 23 </span><span class="caption-text">Figure showing the effect of increasing the amount of ammonium hydroxide.</span><a class="headerlink" href="#fig-stober2" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="advantages-of-sol-gel">
+<h3><a class="toc-backref" href="#id13">Advantages of sol-gel</a><a class="headerlink" href="#advantages-of-sol-gel" title="Permalink to this headline">#</a></h3>
+<ol class="simple">
+<li><p>Versatile: Better control of the structure, including porosity and particle size; possibility of incorporating
+nanoparticles and organic materials into sol-gel-derived oxides.</p></li>
+<li><p>Extended composition ranges: It allows the fabrication of any oxide composition, but also some nonoxides, as well as the production of new hybrid organic-inorganic materials which do not exist naturally.</p></li>
+<li><p>Better homogeneity: Due to mixing at the molecular level; high purity.</p></li>
+<li><p>Less energy consumption: There is no need to reach the melting temperature, since the network structure can be achieved at relatively low temperatures.</p></li>
+<li><p>Products: Coatings and thin films, monoliths, composites, porous membranes, powders and fibers.</p></li>
+<li><p>Inexpensive: No need for special or expensive equipment.</p></li>
+</ol>
+</section>
+</section>
+<section id="hybrid-nanoparticles">
+<h2><a class="toc-backref" href="#id14">Hybrid nanoparticles</a><a class="headerlink" href="#hybrid-nanoparticles" title="Permalink to this headline">#</a></h2>
+<p>Constructed from at leas two different nanoparticles, in order to overcome the limits of single-component nanoparticles, to improve properties, to achieve new properties not possible for single nanoparticles, and/or to achieve multiple functionalities for single nanoparticles
+E.g. incorporating magnetic nanoparticles in a silica shell (<a class="reference internal" href="#fig-hybrid"><span class="std std-numref">Fig. 24</span></a>).</p>
+<figure class="align-default" id="fig-hybrid">
+<img alt="hybrid" src="_images/hybrid.png" />
+<figcaption>
+<p><span class="caption-number">Fig. 24 </span><span class="caption-text">Figure showing the silica hybrid nanoparticles.</span><a class="headerlink" href="#fig-hybrid" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="vapour-phase-synthesis">
+<h2><a class="toc-backref" href="#id15">Vapour phase synthesis</a><a class="headerlink" href="#vapour-phase-synthesis" title="Permalink to this headline">#</a></h2>
+<ul class="simple">
+<li><p>Fundamentals of homogeneous nucleation in the liquid phase hold true for vapour phase synthesis as well.</p></li>
+<li><p>Process requires elevated temperatures and often vacuum.</p></li>
+<li><p>Particles nucleate homogeneously upon reaching sufficient supersaturation condition and are often deposited on a target substrate.</p></li>
+<li><p>Once nucleation starts, supersaturation is relieved and growth starts.</p></li>
+<li><p>Rapid quenching prevents particle growth by either removing the source or slowing the kinetics.</p></li>
+</ul>
+<p>Some other things to consider:</p>
+<ul class="simple">
+<li><p>Generally, formed nanoparticles are deposited on a solid substrate.</p></li>
+<li><p>Long time deposition can lead to the formation of agglomerates.
+The deposited nanoparticles can migrate and agglomerate on the surface to form spherical or needle-like shapes.</p></li>
+</ul>
+<p>Three different types of vapour phase synthesis methods are discussed, as shown in <a class="reference internal" href="#fig-vps"><span class="std std-numref">Fig. 25</span></a>.</p>
+<figure class="align-default" id="fig-vps">
+<img alt="vps" src="_images/vps.png" />
+<figcaption>
+<p><span class="caption-number">Fig. 25 </span><span class="caption-text">Figure showing the three different types of vapour phase synthesis to be discussed.</span><a class="headerlink" href="#fig-vps" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<section id="chemical-vapour-deposition-cvd">
+<h3><a class="toc-backref" href="#id16">Chemical vapour deposition (CVD)</a><a class="headerlink" href="#chemical-vapour-deposition-cvd" title="Permalink to this headline">#</a></h3>
+<p>Short explanation of CVD:
+Reagents are transported to the deposition zone, and gas phase reactions in the boundary layer leads to the production of precursors and byproducts. The precursor is then adsorbed on the surface, and moves to the growth site due to diffusion. Chemical reaction on the growth site then leads to deposition, and by-products are desorbed. CVD also shown in <a class="reference internal" href="#fig-cvd"><span class="std std-numref">Fig. 26</span></a>.</p>
+<figure class="align-default" id="fig-cvd">
+<img alt="cvd" src="_images/cvd.png" />
+<figcaption>
+<p><span class="caption-number">Fig. 26 </span><span class="caption-text">Figure showing CVD.</span><a class="headerlink" href="#fig-cvd" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="physical-vapour-deposition-pvd">
+<h3><a class="toc-backref" href="#id17">Physical vapour deposition (PVD)</a><a class="headerlink" href="#physical-vapour-deposition-pvd" title="Permalink to this headline">#</a></h3>
+<p>With PVD the source material is evaporated by
+for instance thermal evaporation og plasma
+assisted sputtering, and after deposited on the
+substrate. Also shown in <a class="reference internal" href="#fig-pvd"><span class="std std-numref">Fig. 27</span></a>.</p>
+<figure class="align-default" id="fig-pvd">
+<img alt="pvd" src="_images/pvd.png" />
+<figcaption>
+<p><span class="caption-number">Fig. 27 </span><span class="caption-text">Figure showing PVD.</span><a class="headerlink" href="#fig-pvd" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+</section>
+<section id="heterogeneous-nucleation">
+<h2><a class="toc-backref" href="#id18">Heterogeneous nucleation</a><a class="headerlink" href="#heterogeneous-nucleation" title="Permalink to this headline">#</a></h2>
+<p>Heterogeneous nucleation occurs at an interface, in the presence of foreign crystals, and requires a lower degree of supersaturation (<a class="reference internal" href="#fig-hetnuc"><span class="std std-numref">Fig. 28</span></a>) compared to homogenous nucleation.</p>
+<figure class="align-default" id="fig-hetnuc">
+<img alt="hetnuc" src="_images/hetnuc.png" />
+<figcaption>
+<p><span class="caption-number">Fig. 28 </span><span class="caption-text">Concentration, time diagram for heterogeneous nucleation. Notice that the nucleation starts much lower than <span class="math notranslate nohighlight">\(C^{nu}_{min}\)</span>, which is where homogeneous nucleation starts.</span><a class="headerlink" href="#fig-hetnuc" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<section id="solubility-supersolubility-diagram">
+<h3><a class="toc-backref" href="#id19">Solubility-supersolubility diagram</a><a class="headerlink" href="#solubility-supersolubility-diagram" title="Permalink to this headline">#</a></h3>
+<p><a class="reference internal" href="#fig-solsup"><span class="std std-numref">Fig. 29</span></a> shows a solubility-supersolubility diagram.</p>
+<figure class="align-default" id="fig-solsup">
+<img alt="solsup" src="_images/solsup.png" />
+<figcaption>
+<p><span class="caption-number">Fig. 29 </span><span class="caption-text">Solubility-supersolubility diagram.</span><a class="headerlink" href="#fig-solsup" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<p>Zones:</p>
+<ul class="simple">
+<li><p>Stable zone: Crystallization is impossible.</p></li>
+<li><p>Metastable zone: Crystallization is improbable.</p></li>
+<li><p>Labile zone: Spontaneous crystallization is probable.</p></li>
+</ul>
+<p>Moving from stable to labile zone:</p>
+<ol class="simple">
+<li><p>Reducing temperature and maintaining the same solvent content.</p>
+<ul class="simple">
+<li><p>A-B-C-D</p></li>
+</ul>
+</li>
+<li><p>Evaporation</p>
+<ul class="simple">
+<li><p>A-B’-C’</p></li>
+</ul>
+</li>
+<li><p>Combination of 1 and 2</p>
+<ul class="simple">
+<li><p>A-B’’-C’’</p></li>
+</ul>
+</li>
+</ol>
+</section>
+<section id="interfacial-tension-gamma">
+<h3><a class="toc-backref" href="#id20">Interfacial tension (<span class="math notranslate nohighlight">\(\gamma\)</span>)</a><a class="headerlink" href="#interfacial-tension-gamma" title="Permalink to this headline">#</a></h3>
+<p>For heterogeneous nucleation contact angle (<span class="math notranslate nohighlight">\(\theta\)</span>) matters, and is defined by Youngs equation:</p>
+<div class="math notranslate nohighlight">
+\[
+\gamma_{sv} = \gamma_{fs} + \gamma_{vf}\cos{\theta}
+\]</div>
+<p><span class="math notranslate nohighlight">\(\gamma_{sv}\)</span> is the surface energy of substrate-vapour.<br />
+<span class="math notranslate nohighlight">\(\gamma_{fs}\)</span> is the surface energy of nucleus-substrate.<br />
+<span class="math notranslate nohighlight">\(\gamma_{vf}\)</span> is the surface energy of vapour-nucleus.</p>
+<figure class="align-default" id="fig-contact-angle">
+<img alt="contact_angle" src="_images/contact_angle.png" />
+<figcaption>
+<p><span class="caption-number">Fig. 30 </span><span class="caption-text">Schematic illustrating heterogeneous nucleation process with all related surface
+energies in equilibrium.</span><a class="headerlink" href="#fig-contact-angle" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<p>This leads to a modified critical Gibbs free energy equation which includes a wetting factor, as shown in <a class="reference internal" href="#fig-wetting"><span class="std std-numref">Fig. 31</span></a>.</p>
+<figure class="align-default" id="fig-wetting">
+<img alt="wetting" src="_images/wetting.png" />
+<figcaption>
+<p><span class="caption-number">Fig. 31 </span><span class="caption-text">Critical Gibbs free energy equations for homogeneous nucleation and heterogeneous nucleation.</span><a class="headerlink" href="#fig-wetting" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<p>The wetting factor:</p>
+<div class="math notranslate nohighlight">
+\[
+f(\theta) = \frac{2-3\cos\theta+\cos^3\theta}{4}
+\]</div>
+<p>Cases for the wetting factor:</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(\theta = 180°\)</span>, no whetting, and <span class="math notranslate nohighlight">\(\Delta G^*_{\text{het}} = \Delta G^*_{\text{hom}}\)</span>.</p></li>
+<li><p><span class="math notranslate nohighlight">\(0&lt;\theta&lt;180°\)</span>, partial whetting, and <span class="math notranslate nohighlight">\(\Delta G^*_{\text{het}} &lt; \Delta G^*_{\text{hom}}\)</span>.</p></li>
+<li><p><span class="math notranslate nohighlight">\(\theta = 0°\)</span>, complete whetting, and <span class="math notranslate nohighlight">\(\Delta G^*_{\text{het}} = \Delta G^*_{\text{hom}} = 0\)</span>.</p></li>
+</ul>
+<p>N.B. In the following lecture slides, as an example of heterogenous growth the growth mechanisms of Fe-Ag Dumbbell Nanoparticles are discussed. This will not be included here.</p>
+</section>
+</section>
+<section id="kinetically-confined-synthesis">
+<h2><a class="toc-backref" href="#id21">Kinetically confined synthesis</a><a class="headerlink" href="#kinetically-confined-synthesis" title="Permalink to this headline">#</a></h2>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
